@@ -484,7 +484,7 @@ Fsdb2RtlElabRoot(p_cb_data cb_data_p)
   }
 
   /* Open FSDB and parse */
-  fsdbObj = ffrObject::ffrOpen((str_T)fsdbFile.c_str(), MyTreeCBFunc, NULL);
+  fsdbObj = ffrObject::ffrOpen2((str_T)fsdbFile.c_str(), MyTreeCBFunc, NULL);
   if (NULL == fsdbObj) {
     cerr << "Error: Fsdb2Rtl: opening FSDB file : " << fsdbFile << endl;
     vpi_control(vpiFinish, __LINE__);

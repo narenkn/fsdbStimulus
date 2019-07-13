@@ -2,7 +2,7 @@
 FSDB2RTLSO := ../../fsdb2rtl.so
 
 verilog.fsdb: build_pp
-	./build_pp +fsdb2rtl+fsdb=stim.fsdb +fsdb2rtl+test_xor.Rxor=test_xor.Rxor +fsdbfile+$@
+	./build_pp +fsdb2rtl+fsdb=stim.fsdb +fsdb2rtl+test_xor1.rx1=test_xor1.rx1 +fsdbfile+$@
 
 stim.fsdb: $(STIM_SOURCES)
 	\rm -rf csrc simv*
