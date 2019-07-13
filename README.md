@@ -1,6 +1,9 @@
 # FSDB Stimulus
 Use FSDB as your stimulus. Only the FSDB and design is needed. A sample test is provided for users to understand the utility.
 
+## Video
+[Link](https://www.youtube.com/embed/FqU-B7RGWOc)
+
 ## Example
 ```bash
 cd tests/xor
